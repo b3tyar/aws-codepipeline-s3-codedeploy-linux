@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo 'test'
+      - echo 'teist'
   build:
     commands:
       - echo 'build'
