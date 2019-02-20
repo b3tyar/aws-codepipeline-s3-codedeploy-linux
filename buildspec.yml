@@ -8,5 +8,5 @@ phases:
     commands:
       - echo 'build'
 artifacts:
-  files:
-- '**/*'
+  type: zipfiles:
+  - '**/*'
