@@ -8,5 +8,9 @@ phases:
     commands:
       - echo 'build'
 artifacts:
-  type: zipfiles:
-  - '**/*'
+  type: zip
+  files:
+    - appspec.yml
+    - index.html
+    - 'scripts/**'
+
